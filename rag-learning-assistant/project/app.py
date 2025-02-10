@@ -5,9 +5,10 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 import requests
+import os
 
 # --- API Key (Replace with your own) ---
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # --- Global Variables ---
