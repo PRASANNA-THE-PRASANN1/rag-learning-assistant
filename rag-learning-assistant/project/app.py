@@ -7,7 +7,7 @@ import numpy as np
 import requests
 import os
 
-# --- API Key (Replace with your own) ---
+
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
